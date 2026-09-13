@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIT Viewer Support</title>
+<meta name="description" content="Support for SIT Viewer — the app for operators of SIT equipment.">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <img src="../assets/logo.png" alt="SPECINTECH">
+    <nav>
+      <a href="index.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="../index.html" hreflang="uk">UA</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>SIT Viewer Support</h1>
+  <p class="lead">SIT Viewer is an app for operators of SIT equipment — cameras, recorders and
+  GPS-equipped units. If something does not work or is unclear, write to us.</p>
+
+  <div class="contact">
+    <p>Support email</p>
+    <a href="mailto:info@specinteh.com.ua">info@specinteh.com.ua</a>
+  </div>
+
+  <h2>What to put in your message</h2>
+  <p>To answer properly the first time, we usually need:</p>
+  <ul>
+    <li>the device model (ORACLE LTE, VOTAN, FLY LTE PRO and so on) and its serial number;</li>
+    <li>your phone or tablet model and its system version;</li>
+    <li>what you did, and what happened instead of what you expected;</li>
+    <li>a screenshot or screen recording, if the problem is visible on screen.</li>
+  </ul>
+  <p>Please do not send us the device password, the access token or the server address — we do not
+  need them.</p>
+
+  <h2>Frequently asked</h2>
+
+  <div class="faq">
+    <h3>How do I add a device?</h3>
+    <p>Two ways. Scan the QR code from the desktop app and every field fills itself in. Or enter the
+    server address, serial number and device password by hand — your administrator issues those.
+    Saved devices stay in the list and connect with a single tap.</p>
+  </div>
+
+  <div class="faq">
+    <h3>I do not have a device yet. What does the app show?</h3>
+    <p>On the first screen tap "Demo" and pick "Demo ORACLE" (a camera) or "Demo FLY PRO" (a
+    multi-channel audio device). The demo needs no server and no internet: it plays a sample picture
+    and sound, shows a position on the map, and opens the full settings tab.</p>
+  </div>
+
+  <div class="faq">
+    <h3>Why does the app ask for the microphone?</h3>
+    <p>That is how iOS works: a device's sound is played through the system's call audio unit, and
+    the system only opens that unit when microphone access is granted. The app records nothing from
+    your phone and sends nothing — both media channels are receive-only.</p>
+  </div>
+
+  <div class="faq">
+    <h3>Where do downloaded recordings go?</h3>
+    <p>On Android, into the "SIT-VIEWER" folder inside "Download". On iPhone and iPad, into the app's
+    folder in the Files app. Inside, files are laid out by device serial number, then by the device's
+    own folder and date. Each downloaded file has an "Open in Files" action that takes you straight
+    to the right folder.</p>
+  </div>
+
+  <div class="faq">
+    <h3>The device will not connect</h3>
+    <p>Check the server address and the device password first — those are what usually go wrong. If
+    the app reports that access was refused, your token lacks the right for that action: an
+    administrator grants it in the admin panel, not in the app. If the device shows as offline, it is
+    not reaching the server at all, and the app cannot help with that.</p>
+  </div>
+
+  <div class="faq">
+    <h3>How do I change the language?</h3>
+    <p>The app follows your phone's language and supports Ukrainian, Russian and English. To set it
+    by hand: the gear icon at the top right of the first screen, then "Мова" (Language).</p>
+  </div>
+
+  <h2>Compatibility</h2>
+  <p>iPhone and iPad running iOS 16.4 or later. The Android version is supplied together with the
+  equipment. The app works with SIT equipment and your server — without them, only the demo mode is
+  available.</p>
+</main>
+
+<footer>
+  <p>SPECINTECH · <a href="privacy.html">Privacy Policy</a> ·
+  <a href="mailto:info@specinteh.com.ua">info@specinteh.com.ua</a></p>
+</footer>
+
+</body>
+</html>
